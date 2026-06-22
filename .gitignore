@@ -1,0 +1,17 @@
+# Ignore IDE settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignore Java build artifacts and logs
+**/target/
+**/build/
+*.log
+*.class
+
+# Ignore Maven wrapper jar if needed (already standard to download it)
+**/.mvn/wrapper/maven-wrapper.jar
